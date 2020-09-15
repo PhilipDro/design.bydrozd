@@ -21,6 +21,8 @@
 	    	text-decoration: italic;
 	    	display: block;
 	    	padding-left: 15px;
+	    	padding-top: 7px;
+
 	    }
 
     	.row {
@@ -32,7 +34,7 @@
     	height: 100%;
     	width: 100%;
     	position: relative;
-    	top: 25px;
+    	top: 28px;
 
 	    ul {
     		width: 100%;
@@ -63,7 +65,7 @@
 			text-transform: uppercase;
 			text-decoration: italic;
 			font-weight: 400;
-			margin-top: 30%;
+			margin-top: 25%;
 			transform: translateY(-50%);
 		}
 
@@ -71,7 +73,8 @@
 			overflow: hidden;
 			border-left: 1px solid black;
 			margin-right: 15px;
-			bottom: 145px;
+			position: relative;
+			bottom: 345px;
 		}
 	}
 

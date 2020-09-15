@@ -1,7 +1,7 @@
 <div class="container">
-	<section class="article-section">
-		<span class="tagline text-red">Unsere Geschichte</span>
-		<h1>Design By Drozd</h1>
+	<section class="article-section truncated-text-long" [ngClass]="{'truncated': collapseText}">
+		<span class="tagline text-red">Unsere Geschichte (Taschentücher bereithalten)</span>
+		<h1>Design By Familie Drozd</h1>
 		<strong>
 Unter 100 Möbeln findet sich eines mit Potenzial Zeitlos ist unsere familiengeführte Gallerie für Stilobjekte und Möbel aus dem 20. Jahrhundert. Und
 mit genau der selben Liebe, die uns als Familie zusammenhält, wählen wir
@@ -10,7 +10,7 @@ unterschiedlichen Fähigkeiten und versuchen dabei, etwas größeres als
 die Summe unserer einzelnen Beiträge zu schaffen.
 		</strong>
 
-		<p>
+		<p class="truncate" [ngClass]="{'truncate': collapseText}">
 Das ist Zeitlos Zeitlos sehen wir dabei als eine fein kurierte Ausstellung, quasi
 der Schmelzpunkt, in dem die Passion für Design zusammenläuft. Hier werden
 aus den vielen existierenden Möbeln und Objekten des Bauhaus, Art Deco und
@@ -21,7 +21,7 @@ Stücken, die Zeitlos bereichern würden, reisen wir regelmäßig durch verschie
 um unser Sortiment zu erweitern.
 		</p>
 
-		<p>
+		<p class="truncated" [ngClass]="{'truncated': collapseText}">
 Nach über 30 Jahren Arbeit mit den feinsten Hölzern und Materialien, kann
 Chefdesigner Artur Drozd dabei sehr zuverlässig das Potenzial in einem Möbelstück erkennen. So finden wir häufig unter über 100 Stilobjekten das Eine
 Stück, das unserern hohen Ansprüchen gerecht wird und im Zeitlos für Sie
@@ -33,8 +33,7 @@ Jahre alten Originals des Bauhaus bewahren. Gleichzeitig fühlt es sich an, wie
 neu. Nicht neu, wie aus der Fabrik ...
 		</p>
 
+		<a class="cta pt-2" (click)="this.collapse()">Weiterlesen...</a>
+
 	</section>
-	<p class="mt-2 mb-2">
-		2020 Copyright Artur Drozd
-	</p>
 </div>

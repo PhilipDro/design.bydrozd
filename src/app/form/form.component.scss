@@ -1,0 +1,79 @@
+.article-section {
+	padding-bottom: 15px;
+	padding-top: 40px;
+
+	.tagline {
+		text-transform: uppercase;
+		font-size: 24px;
+	}
+	.headline {
+
+	}
+	p {
+		padding: 15px 0;
+	}
+
+}
+
+h3 {
+	font-size: 24px;
+	text-transform: uppercase;
+	font-style: normal;
+	font-weight: bold;
+}
+
+
+.contact-form-section {
+	.form-container {
+		width: 90%;
+
+		form {
+			border: 1px solid black;	
+
+			input {
+				display: block;
+				background: transparent;
+				width: 100%;
+				outline: none;
+				padding: 15px;
+				outline-width: 0;
+				border: none;
+				border-bottom: 1px solid black;
+				font-size: 16px;
+				text-transform: uppercase;
+
+				&[type=submit] {
+					border-bottom: none;
+					border-top: 1px solid black;
+					background: #e04545;
+
+					&:hover {
+						color: white;
+						background: #b42828;
+					}
+				}
+			}
+			textarea {
+				background: transparent;
+				padding: 15px;
+				border: none;
+				font-size: 16px;
+				text-transform: uppercase;
+			}
+			label {
+				padding: 15px;
+				font-size: 16px;
+				text-transform: uppercase;
+				border-bottom: 1px solid black;
+				display: block;
+				background: #fcbba1;
+			}
+		}
+	}
+}
+
+.faq {
+	p {
+		margin-bottom: 20px;
+	}
+}
