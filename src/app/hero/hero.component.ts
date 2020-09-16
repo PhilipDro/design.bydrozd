@@ -12,4 +12,8 @@ export class HeroComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  switchPlane(): void {
+  	window.location.assign('/home');
+  }
+
 }

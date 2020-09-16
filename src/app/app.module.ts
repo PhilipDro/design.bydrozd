@@ -8,6 +8,14 @@ import { TickerComponent } from './ticker/ticker.component';
 import { ArticleComponent } from './article/article.component';
 import { FooterComponent } from './footer/footer.component';
 import { FormComponent } from './form/form.component';
+import { InfoBoxComponent } from './info-box/info-box.component';
+import { HomeComponent } from './static/home/home.component';
+import { ContactComponent } from './static/contact/contact.component';
+import { WorkComponent } from './static/work/work.component';
+import { PropsComponent } from './static/props/props.component';
+import { TriSectionComponent } from './tri-section/tri-section.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { MainNavComponent } from './main-nav/main-nav.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +24,15 @@ import { FormComponent } from './form/form.component';
     TickerComponent,
     ArticleComponent,
     FooterComponent,
-    FormComponent
+    FormComponent,
+    InfoBoxComponent,
+    HomeComponent,
+    ContactComponent,
+    WorkComponent,
+    PropsComponent,
+    TriSectionComponent,
+    GalleryComponent,
+    MainNavComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
