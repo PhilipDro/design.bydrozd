@@ -1,29 +1,27 @@
-
 nav {
-	height: 100%;
-	width: 100%;
-	position: relative;
-	top: 28px;
-
-  ul {
-		width: 100%;
-  	display: flex;
-    align-content: center;
-    align-items: center;
-    margin: 0;
     height: 100%;
-    justify-content: center;
+    width: 100%;
+    position: relative;
 
-    li {
-    	text-decoration: none;
-    	font-weight: 400;
-    	display: inline;
-    	padding: 0 20px;
-    	font-size: 20px;
+    ul {
+        width: 100%;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        margin: 0;
+        height: 100%;
+        justify-content: center;
 
-    	a {
-    		color: #494646;
-    	}
+        li {
+            text-decoration: none;
+            font-weight: 400;
+            display: inline;
+            padding: 30px 20px;
+            font-size: 20px;
+
+            a {
+                color: #494646;
+            }
+        }
     }
-	}
 }

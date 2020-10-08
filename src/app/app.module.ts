@@ -16,6 +16,9 @@ import { PropsComponent } from './static/props/props.component';
 import { TriSectionComponent } from './tri-section/tri-section.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { MainNavComponent } from './main-nav/main-nav.component';
+import { FaqComponent } from './static/faq/faq.component';
+import { AdminComponent } from './static/admin/admin.component';
+import { SliderComponent } from './slider/slider.component';
 
 @NgModule({
   declarations: [
@@ -29,10 +32,13 @@ import { MainNavComponent } from './main-nav/main-nav.component';
     HomeComponent,
     ContactComponent,
     WorkComponent,
+    FaqComponent,
     PropsComponent,
     TriSectionComponent,
     GalleryComponent,
-    MainNavComponent
+    MainNavComponent,
+    AdminComponent,
+    SliderComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),

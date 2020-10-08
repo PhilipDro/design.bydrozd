@@ -1,3 +1,87 @@
+section.header {
+	height: 100vh;
+	width: auto;
+	display: block;
+	background-color: white;
+	background-image: url("/../../assets/interieur1.jpg");
+	background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+h2 {
+	margin-left: 0;
+}
+
+nav {
+	ul {
+		padding-left: 0;
+
+		li {
+			display: inline;
+			list-style-type: none;
+
+			a {
+				text-decoration: uppercase;
+				padding: 0 12px;
+				color: #b42828;
+			}
+	}
+	}
+}
+
 .product-slider-img {
 	width: 35%;
+}
+
+.header-content-sec {
+	background: white;
+	color: black;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	border-radius: 50px 50px 0 0;
+	padding: 40px;
+	border: 1px solid #e5e5e5;
+	box-shadow: 5px 10px 18px #888888;
+
+}
+
+nav {
+	margin-bottom: 30px; 
+}
+
+.logo-furnitures {
+	width: 30%;
+	margin: 30px auto 0 auto;
+}
+
+.info {
+	font-size: 22px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #b42828;
+	position: absolute;
+}
+.mail {
+	transform: translate(0, -50%);
+	transform: rotate(-90deg);
+	top: 46%;
+	right: -80px;
+}
+.tel {
+	left: 10px;
+	transform: translate(0, -50%);
+	transform: rotate(90deg);
+	top: 46%;
+	left: -20px;
+}
+.bydrozd {
+	bottom: 30px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	font-size: 30px;
 }
